@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coba ajax</title>
+    </head>
+    <body>
+        <input type="text" name="keyword" id="keyword">
+        <div id="container"></div>
+
+        <script type="text/javascript">
+            let keyword = document.getElementById('keyword');
+            let container = document.getElementById('container');
+
+            keyword.addEventListener('keyup',function(){
+                
+                // ================== ajax =================================
+                let xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() {
+                    if(xhr.readyState == 4 && xhr.status == 200){
+                        container.innerHTML = xhr.responseText;
+                    }
+                }
+
+                xhr.open('get','data.php?nama=' + keyword.value);
+                xhr.send();
+                // ================== ajax END =================================
+            });
+        </script>
+    </body>
+</html>

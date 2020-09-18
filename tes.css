@@ -1,0 +1,36 @@
+body{
+    background-color:#F9F9F9;
+    font-family:sans-serif;
+    text-align: center; 
+}
+.content img{
+    width:450px;
+    height: 800px;
+    margin-bottom:20px;
+    text-align: center;
+}
+#nav-search,#nav-log{
+    padding-top: 10px;
+}
+.content{
+    margin:50px;
+}
+.footer{
+    background-color: #757575;
+    width: 100%;
+    color: white; !important
+    padding-bottom: -20px;
+    text-align: center;
+}
+h1{
+    font-size:50px;
+}
+a{
+    color:blue;
+    text-decoration:none;
+    padding :0;
+}
+a:hover{
+    background-color:#F9F9F9;
+    color:royalblue;
+}

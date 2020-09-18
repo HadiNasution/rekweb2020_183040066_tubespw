@@ -1,0 +1,56 @@
+body{
+    background-color:white;
+}
+h1{
+    margin-left:50px;
+}
+.logout button a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+#sort{
+    margin-left:auto;
+}
+.logout{
+    margin-right: -500px;
+}
+.add button a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+.add{
+    margin-right: 50px;
+}
+.logout,.add{
+    float:right;
+}
+.container .table-striped{
+    margin-left:-100px;
+}
+.container .table-striped td{
+    padding:47px;
+}
+.form-inline img .loader{
+    opacity: 0.5;
+}
+
+.loader {
+    width: 10px;
+    position: absolute;
+    display: none;
+    right: 400px;
+    bottom: 8px;
+}
+
+/*PDF Reporting*/
+@media print{
+    .add button a .tes{
+        display:none;
+    }
+}
+
+#print{
+    margin: 10px;
+}

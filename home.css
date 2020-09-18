@@ -1,0 +1,38 @@
+body{
+    font-family:sans-serif;
+    text-align: center; 
+}
+
+#navbar{
+    background-color:#1c92d2;
+}
+
+section #carouselExampleControls{
+    margin-bottom: 30px;
+}
+
+.textHead span{
+    font-size: 50px;
+}
+.textHead h1 .judul{
+    font-size:20px;
+}
+h1{
+    color:black;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+#nav-search,#nav-log{
+    padding-top: 10px;
+}
+
+#btn-login{
+    margin-left: -400px;
+    margin-top: 10px;
+}
+
+#btn-sorting{
+    margin-top: 5px;
+    margin-left: -150px;
+}
